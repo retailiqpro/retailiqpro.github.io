@@ -118,7 +118,7 @@ body {
 }
 .btn.red.inverse, .btn.red.inverse:hover, .btn.red.inverse:focus {
   border: 1px solid #ee3440;
-  background: #fff;
+  background: transparent;
   color: #ee3440;
 }
 h1, h2, h3, h4 {
