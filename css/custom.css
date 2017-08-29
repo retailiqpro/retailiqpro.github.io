@@ -96,6 +96,7 @@ body {
   outline: none;
   height: 44px;
   line-height: initial !important;
+  font-size: inherit;
 }
 .btn.red {
   border: 1px solid #ee3440;
@@ -191,7 +192,6 @@ p.big {
 .plans .popular .content {
   background: #ee3440;
   padding: 5px 10px;
-  border-radius: 2px;
 }
 .plans .popular .content::after{
   content: "";
@@ -391,6 +391,9 @@ a {
   .padding30 {
     padding: 30px;
   }
+  .imgCover.homeTestimonial {
+    height: 300px;
+  }
 }
 /*desktop and up*/
 @media(min-width:992px){
@@ -462,10 +465,13 @@ a {
     padding-bottom: 150px;
   }
   .plans {
-    height: 550px;
+    height: 600px;
     padding: 20px 30px;
   }
   p.big {
     font-size: 50px;
+  }
+  .imgCover.homeTestimonial {
+    height: 350px;
   }
 }
